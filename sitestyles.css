@@ -1,0 +1,767 @@
+/*/////////////////////////*/
+/* GENERAL BODY FORMATTING */
+/*/////////////////////////*/
+
+a {
+        text-decoration: underline;
+        }
+
+a:link {
+	color: #0B1AF9;
+	}
+
+a:visited {
+	color: #0B1AF9;
+	}
+
+a:active {
+	color: #54A6CD4;
+	}
+
+a:hover {
+	color: #7A9DD7;
+	}
+
+a.post {
+	color: #FFFFFF;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	text-align: left;
+	line-height: 150%;
+	margin-left: 5px;
+	text-decoration: none;
+	padding: 3px;
+	border-width: 2px;
+	background-color: #BBBBBB;
+	border-style: outset;
+	}
+
+a.post:hover {
+	color: #FFFFFF;
+	}
+
+h1, h2, h3 {
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+	}
+
+table.intro {
+	width: 100%;
+	border-bottom: 3px solid #607ED9;
+        border-spacing: 0px;
+	cellpadding: 0px;
+	cellspacing: 0px;
+	border-collapse: collapse;
+	}
+
+table.intro h1.news {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 12px;
+	text-transform: uppercase;
+	background-color: #4A6CD4;
+	margin-bottom: 5px;
+	font-weight: bold;
+	margin-top: 0px;
+	}
+
+table td.left {
+	width: 280px;
+	}
+
+table td.right {
+	background-color: #E4E9F9;
+	text-align: center;
+	}
+
+table h1 {
+	color: #4A6CD4;
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+	font-weight: bold;
+	}
+
+table p {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: small;
+	font-weight: normal;
+	line-height: 150%;
+	text-align: left;
+	margin-bottom: 10px;
+	}
+
+.breadcrumb {
+        display: block;
+        font-family: Verdana, Arial, sans-serif;
+	font-size: x-small;
+	text-align: left;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+        text-decoration: none;
+        padding: 0px;
+        border-bottom: 1px solid #0B1AF9;
+        }
+
+.breadcrumb a {
+	padding: 0px 0px;
+        display: inline;
+        border: 0px;
+	}
+
+#container {
+	line-height: 140%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	padding: 0px;
+	width: 750px;
+	background-color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	}
+
+#banner {
+	font-family: Verdana, Arial, sans-serif;
+	color: #FFFFFF;
+	background-color: #999999;
+	text-align: left;
+	padding: 15px;
+	border-bottom: 1px solid #FFFFFF;
+	height: 39px;
+	}
+
+#banner-img {
+	display: none;
+	}
+
+#banner a {
+	color: #FFFFFF;
+	text-decoration: none;
+	}
+
+#banner h1 {
+	margin: 0 0 0 0;
+	}
+
+#banner h2 {
+	font-size: small;
+	}
+
+#center {
+	float: left;
+	width: 550px;
+	overflow: hidden;
+	}
+
+/*////////////////////*/
+/* TAB BAR FORMATTING */
+/*////////////////////*/
+
+#top_bar {
+        border-bottom: 2px solid #999999;
+        }
+
+#top_bar table {
+	margin-top: 5px;
+	border-spacing: 0px;
+	margin-bottom: 0px;
+	border-collapse: collapse;
+	}
+
+#top_bar td {
+	width: 130px;
+	padding-bottom: 0px;
+	background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/grayTab.gif');
+	}
+
+#top_bar td.home:hover {
+        background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/blueTab.gif');
+        }
+
+
+#top_bar td.gettingstarted:hover {
+        background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/purpleTab.gif');
+        }
+
+
+#top_bar td.support:hover {
+        background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/greenTab.gif');
+        }
+
+
+#top_bar td.educators:hover {
+        background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/orangeTab.gif');
+        }
+
+
+#top_bar td.research:hover {
+        background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/tealTab.gif');
+        }
+
+
+#top_bar td.home_current {
+        background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/blueTab.gif');
+        }
+
+
+#top_bar td.gettingstarted_current {
+        background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/purpleTab.gif');
+        }
+
+
+#top_bar td.support_current {
+        background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/greenTab.gif');
+        }
+
+
+#top_bar td.educators_current {
+        background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/orangeTab.gif');
+        }
+
+
+#top_bar td.research_current {
+        background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/tealTab.gif');
+        }
+
+
+
+#top_bar a {
+        color: #FFFFFF;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: x-small;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+        text-decoration: none;
+	margin: 0 0 0 0;
+	padding-left: 4px;
+	display: block;
+	/*background-color: #FF0000;*/
+	}
+
+/*//////////////////*/
+/* SECTION HEADINGS */
+/*//////////////////*/
+
+#heading ul {
+	padding-top: 0px;
+	margin-left: 14px;
+	padding-left: 0px;
+	}
+
+#heading table {
+	width: 540px;
+	border-spacing: 0px;
+	margin-left:0px;
+	margin-top: 20px;
+	border-collapse: collapse;
+	}
+
+#heading a.gettingstarted {
+	color: #FFFFFF;
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 80px;
+	padding-right: 10px;
+	padding-top: 12px;
+	padding-bottom: 15px;
+	margin-right: 50px;
+	}
+
+#heading a.support {
+	color: #FFFFFF;
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 80px;
+	padding-right: 73px;
+	padding-top: 12px;
+	padding-bottom: 15px;
+	margin-right: 50px;
+	}
+
+#heading a.educators {
+	color: #FFFFFF;
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 80px;
+	padding-right: 53px;
+	padding-top: 12px;
+	padding-bottom: 15px;
+	margin-right: 50px;
+	}
+
+#heading a.research {
+	color: #FFFFFF;
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 80px;
+	padding-right: 63px;
+	padding-top: 12px;
+	padding-bottom: 15px;
+	margin-right: 50px;
+	}
+
+#heading td.gettingStarted {
+	width: 270px;
+	height: 51px;
+        background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/gettingStartedHeading.gif');
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: small;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1pxem;
+        text-decoration: none;	
+	}
+
+#heading td.support {
+	width: 270px;
+	height: 51px;
+        background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/supportHeading.gif');
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: small;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1pxem;
+        text-decoration: none;
+	}
+
+#heading td.educators {
+	width: 270px;
+	height: 51px;
+        background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/educators-hands.gif');
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: small;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1pxem;
+        text-decoration: none;
+	}
+
+#heading td.research {
+	width: 270px;
+	height: 51px;
+        background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/researchHeading.gif');
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: small;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1pxem;
+        text-decoration: none;
+	}
+
+/*////////*/
+/* GROUPS */
+/*////////*/
+
+#groups table {
+	width: 521px;
+	margin-bottom: 15px;
+	border-collapse: collapse;
+	}
+
+#groups td.top {
+	height: 12px;
+        background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/groupsTop.gif');
+	}
+
+#groups td.middle {
+	margin-left: 1px;
+	background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/groupsMiddle.gif');
+	text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+	}
+
+#groups td.bottom {
+	height: 12px;
+        background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/groupsBottom.gif');
+	}
+
+#groups p {
+	margin-left: 10px;
+	}
+
+/*////////*/
+/* SUBMIT */
+/*////////*/
+
+#submit table {
+	width: 192px;
+	border-collapse: collapse;
+        margin-bottom: 10px;
+	}
+
+#submit td.top {
+	height: 9px;
+        background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/submitTop.gif');
+	}
+
+#submit td.middle {
+        color: #FFFFFF;
+	background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/submitMiddle.gif');
+        background-repeat: y-repeat; 
+        font-family: Verdana, Arial, sans-serif;
+	font-size: x-small;
+	line-height: 150%;
+        padding-left: 15px;
+        padding-right: 15px;
+	}
+
+#submit td.bottom {
+	height: 9px;
+        background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/submitBottom.gif');
+	}
+
+/*////////////////////*/
+/* SIDEBAR FORMATTING */
+/*////////////////////*/
+
+#right {
+	float: left;
+	width: 200px;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	}
+
+.content {
+	padding: 15px 15px 5px 15px;
+	background-color: #FFFFFF;
+	color: #444444;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: small;
+	}
+
+.content p {
+	/*color: #666666;*/
+	font-family: Verdana, Arial, sans-serif;
+	font-size: small;
+	font-weight: normal;
+	line-height: 150%;
+	text-align: left;
+	margin-bottom: 10px;
+	}
+
+.content blockquote {
+	line-height: 150%;
+	}
+
+.content li {
+	line-height: 150%;
+	}
+
+.content h2 {
+	color: #666666;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: x-small;
+	text-align: left;
+	font-weight: bold;
+	margin-bottom: 10px;
+	}
+
+.content h3 {
+	color: #666666;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: small;
+	text-align: left;
+	font-weight: bold;
+	margin-bottom: 10px;
+	}
+
+.content p.posted {
+	color: #999999;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: x-small;
+	border-top: 1px solid #999999;
+	text-align: left;
+	margin-bottom: 25px;
+	line-height: normal;
+	padding: 3px;
+	}
+
+.content p.static {
+        padding: 10px;
+        /*border-bottom: 1px dotted #666666;*/
+        border-bottom: 3px solid #607ED9;
+        }
+
+.content p.static img {
+        margin-right: 4px;
+        }
+
+.content p.static b {
+        color: #607ED9;
+        display: block;
+        text-transform: uppercase;
+        }
+
+.content p.sponsors {
+	font-size: x-small;
+	padding-top: 8px;
+        border-top: 3px solid #607ED9;
+        }
+
+.content p b {
+        display: block;
+        text-transform: uppercase;
+        }
+
+.content table.static {
+        border: 1px dotted #666666;
+	border-collapse: collapse;
+        }
+
+.sidebar {
+	padding: 5px;
+	padding-left: 0px;
+        background-color: #FFFFFF;
+	}
+
+.sidebar ul {
+	color: #666666;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	text-align: left;
+	line-height: 150%;
+	list-style-type: disc;
+	margin-left: 10px;
+	padding-left: 10px;
+	margin-top: 4px;
+	}
+
+.sidebar ul.entries {
+	list-style-type: none;
+	margin-left: 4px;
+	padding-left: 4px;
+	font-weight: normal;
+	margin-top: 0px;
+	}
+
+.sidebar #recent {
+	color: #666666;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	text-align: left;
+	line-height: 150%;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-top: 3px;
+	margin-left: 5px;
+	}
+	
+.sidebar img {
+	border: 3px solid #FFFFFF;
+	}
+
+.sidebar h1 {
+        color: #444444;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: small;
+	text-align: left;
+	font-weight: bold;
+	margin-top: 45px;
+        }
+
+
+.sidebar h2 {
+        color: #FFFFFF;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: small;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 0px;
+        margin-bottom: 3px;
+        margin-left: 0px;
+        }
+
+.sidebar a.comments {
+        font-family: Verdana, Arial, sans-serif;
+	font-size: x-small;
+        }
+
+.photo {
+	text-align: left;
+	margin-bottom: 20px;
+	}
+
+/*////////////////////////*/
+/* DISCUSSIONS AND SEARCH */
+/*////////////////////////*/
+
+#discussions table {
+	width: 192px;
+	margin-bottom: 15px;
+	border-collapse: collapse;
+	}
+
+#discussions td.label {
+	height: 34px;
+        background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/discussionsLabel.gif');
+	}
+
+#discussions td.middle {
+	background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/discussionsMiddle.gif');
+	background-repeat: y-repeat;
+	text-align: left;
+	}
+
+#discussions td.bottom {
+	height: 28px;
+        background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/discussionsBottom.gif');
+	}
+
+#search td.top {
+	width: 192px;
+	height: 9px;
+        background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/searchTop.gif');
+	}
+
+#search td.bottom {
+	width: 192px;
+	height: 9px;
+        background-image: url('/web/20070116125817im_/http://weblogs.media.mit.edu/llk/scratch/format_images/searchBottom.gif');
+	}	
+
+/*///////////////////*/
+/* EXTRAS FORMATTING */
+/*///////////////////*/
+
+.link-note {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: x-small;
+	line-height: 150%;
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	}
+
+#powered {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: x-small;
+	line-height: 150%;
+	text-align: left;
+	color: #666666;
+	margin-top: 30px;
+	}
+
+#comment-data {
+	float: left;
+	width: 180px;
+	padding-right: 15px;
+	margin-right: 15px;
+	text-align: left;
+	border-right: 1px dotted #BBB;
+	}
+
+textarea[id="comment-text"] {
+	width: 80%;
+	}
+
+.commenter-profile img {
+	vertical-align: middle;
+	border-width: 0;
+	}
+
+input.searchButton {
+	color: #FFFFFF;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: small;
+	font-weight: bold;
+	text-align: left;
+	text-decoration: none;
+	padding: 3px;
+	border-width: 2px;
+	background-color: #BBBBBB;
+	border-style: outset;
+	margin-top: 3px;
+	/*width: 66px;*/
+	height: 28px;
+	}
+
+img.nsf {
+	margin-right: 5px;
+	}
+
+/*//////////////////////////////////////////////////////////////////////*/
+
+/*/////////////////////*/
+/* CALENDAR FORMATTING */
+/*/////////////////////*/
+
+#calendar {
+  	line-height: 140%;
+	color: #666666;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: x-small;
+  	padding: 2px;
+	text-align: center;
+	margin-bottom: 30px;
+	}
+
+#calendar table {
+	padding: 2px;
+	border-collapse: collapse;
+	border: 0px;
+	width: 100%;
+	}
+
+#calendar caption {
+	color: #666666;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: x-small;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .3em;
+	}
+
+#calendar th {
+	text-align: center;
+	font-weight: normal;
+	}
+
+#calendar td {
+	text-align: center;
+	}
+/*
+     FILE ARCHIVED ON 12:58:17 Jan 16, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:09:52 May 26, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots.policy: 0.347
+  PetaboxLoader3.datanode: 259.503 (4)
+  load_resource: 242.717
+  CDXLines.iter: 15.232 (3)
+  RedisCDXSource: 209.597
+  exclusion.robots: 0.362
+  esindex: 0.01
+  LoadShardBlock: 295.485 (3)
+  PetaboxLoader3.resolve: 227.052 (2)
+  captures_list: 524.545
+*/
